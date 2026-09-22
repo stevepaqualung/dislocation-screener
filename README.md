@@ -24,7 +24,7 @@ as an HTML email via the Gmail API.
    ```
 
    Edit `config.py` with your real `EMAIL_TO`, `USER_AGENT` (SEC requires a
-   real contact string), and watchlist tickers. This file is gitignored and
+   real contact string), and WATCHLIST tickers. This file is gitignored and
    will never be pushed.
 
 3. Set up Gmail API OAuth credentials:
