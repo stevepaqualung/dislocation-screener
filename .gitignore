@@ -1,0 +1,23 @@
+# Rename this file to ".gitignore" (no extension) before committing.
+
+# Google OAuth secrets - NEVER commit these
+credentials.json
+token.json
+
+# Local cache built by the script at runtime
+ticker_cik_map.json
+
+# Local personal config (see config.example.py)
+config.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS/editor cruft
+.DS_Store
+.idea/
+.vscode/
